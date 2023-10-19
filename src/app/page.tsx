@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <form className="flex flex-col w-1/2 p-2 rounded-sm border-2 bg-white border-black">
         <div className="flex justify-between">
-          <label htmlFor="first-name">First Nam</label>
+          <label htmlFor="first-name">First Name</label>
           <input name="first-name" type="text" placeholder="first name" />
         </div>
         <div className="flex justify-between">
