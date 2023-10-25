@@ -9,11 +9,11 @@ type StepTwoProps = {
   handlePreviousStep: () => void;
 };
 
-export default function StepTwo({
+export default function UserDetails({
   handleNextStep,
   handlePreviousStep,
 }: StepTwoProps) {
-  const schema = yup.object().shape({
+  const schema: any = yup.object().shape({
     fullName: yup
       .string()
       .test({

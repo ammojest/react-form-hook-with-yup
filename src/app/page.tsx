@@ -1,8 +1,7 @@
 "use client";
 import Confirmation from "@/components/Confirmation";
 import StepOne from "@/components/StepOne";
-import StepTwo from "@/components/StepTwo";
-import Image from "next/image";
+import UserDetails from "@/components/UserDetails";
 import { useState } from "react";
 
 export default function Home() {
@@ -20,11 +19,13 @@ export default function Home() {
     setStep(1);
   };
 
+  console.log(step);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {step === 1 && <StepOne handleNextStep={handleNextStep} />}
       {step === 2 && (
-        <StepTwo
+        <UserDetails
           handleNextStep={handleNextStep}
           handlePreviousStep={handlePreviousStep}
         />
