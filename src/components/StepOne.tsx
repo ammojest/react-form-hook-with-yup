@@ -23,7 +23,7 @@ export default function StepOne({ handleNextStep }: StepOneProps) {
         <h2 className="font-bold text-lg">Start the form</h2>
         <p>
           This is an example of multi-step form that uses React-Form-Hooks and
-          uses Yup as a validator
+          uses Yup as a validator!
         </p>
         <button
           type="submit"
