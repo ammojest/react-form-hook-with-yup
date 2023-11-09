@@ -11,7 +11,7 @@ This was a small project to help me understand how react-form-hooks work and how
 - download repo
 - run "yarn install"
 - run yarn dev
-- go to http://localhost:3000
+- go to http://localhost:3000/
 
 ## Validation rules
 
