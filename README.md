@@ -5,3 +5,14 @@ This is an example of a multi-step form created with react-form-hooks and uses Y
 
 ## Why have I created this?
 This was a small project to help me understand how react-form-hooks work and how to add validation within a Next Js Application. 
+
+## How to run?
+
+- download repo
+- run "yarn install"
+- run yarn dev
+- go to http://localhost:3000
+
+## Validation rules
+
+coming soon...
